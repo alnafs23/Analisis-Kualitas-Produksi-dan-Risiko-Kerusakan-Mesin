@@ -1,5 +1,22 @@
-.venv/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 .streamlit/secrets.toml
+
+# Local database
+database/*.db
+
+# Generated analysis files
+analisis_tipe_mesin.csv
+analisis_jenis_kegagalan.csv
